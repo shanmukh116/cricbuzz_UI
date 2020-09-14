@@ -1,0 +1,151 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+.mobile{
+  border:1px solid #eee;
+  border-radius:2rem;
+  margin:1rem auto;
+  max-width:400px;
+  max-height:1000px;
+  font-family:"Raleway",sans-serif;
+  overflow:hidden;
+}
+header{
+  background-color:#064dbb;
+  color: white;
+  height:12rem;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem 1.5rem;
+}
+nav a{
+  text-decoration:none;
+  color:white;
+}
+nav img{
+  width:3rem;
+  height:3rem; 
+}
+.card{
+  background-color:white;
+  border:1px solid #ddd;
+  border-radius:1rem;
+  margin: 1rem 1.5rem; 
+  overflow:hidden;
+  box-shadow:2px 2px 12px 0 rgba(200,200,200,0.6);
+}
+.result{
+  margin-top:-6rem;
+  padding:1rem 1.5rem;
+}
+.team{
+  display:flex;
+  align-items:center;
+}
+.team img{
+  width:3rem;
+  height:3rem;
+  border-radius:9999px;
+  margin-right:1rem;
+}
+.score{
+  margin-left:auto;
+  text-align:right;
+}
+.vs{
+  text-align:center;
+}
+.vs span{
+  display:inline-block;
+  background-color:#aaa;
+  color:#666;
+  font-size:0.8rem;
+  border-radius:0.25rem;
+  padding:0.25rem; 
+}
+.result .sub{
+  margin-bottom:1rem;
+}
+.result p:last-child{
+  margin-top:1rem;
+}
+menu{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+menu button{
+  border:none;
+  background-color:white;
+  padding:1.5rem 1rem;
+  font-size:1.2rem;
+}
+menu button.active{
+  color:#064dbb;
+  border-bottom:4px solid #064dbb;
+}
+table{
+  text-align:right;
+  width:90%;
+  border-collapse:collapse;
+}
+thead{
+  color:black;
+}
+tbody{
+  color:#666;
+}
+tbody tr{
+  background-color: #f2f2f2;
+}
+th,
+td{
+  padding:1rem 0.25rem;
+}
+tbody tr:nth-child(2n+1){
+  background:linear-gradient(to bottom,#f2f2f2,white,70%,white);
+}
+thead th:first-child,tbody td:first-child{
+  text-align:left;
+  padding-left:1rem;
+}
+thead th:last-child,tbody td:last-child{
+  text-align:left;
+  padding-right:1rem;
+}
+.pom{
+  overflow:visible;
+  margin:1rem 1.5rem;
+  width:auto;
+  padding:0.3rem 1.5rem;
+  position:relative;
+  height:9.4rem;
+}
+.pom img{
+  position:absolute;
+  bottom:0;
+  right:1rem;
+  height:10rem;
+  
+}
+tbody td:first-child{
+  color:#064dbb;
+  font-weight:600
+}
+.pom .name{
+  font-size:1.25rem;
+}
+h2{
+  font-size:1.2rem;
+  margin-bottom:0.5rem; 
+}
+a{
+  text-decoration:none;
+}
+nav img{
+  border-radius:9999px;
+}
